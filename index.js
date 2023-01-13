@@ -34,4 +34,4 @@ http.createServer(onRequest).listen(5000);`
 
 export const serviceWorkerExample = ``
 
-document.body.appendChild(Object.assign(document.createElement('div'), { innerHTML: `<pre>${httpsGitHubProxyNode}</pre><br /><pre>serviceWorkerExample</pre>`}))
+document.body.appendChild(Object.assign(document.createElement('div'), { innerHTML: `<p>httpsGitHubProxyNode</p><pre>${httpsGitHubProxyNode}</pre><br /><p>serviceWorkerExample</p><pre>${serviceWorkerExample}</pre>`}))
